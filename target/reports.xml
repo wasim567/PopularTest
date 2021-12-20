@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="0.313">
+    <testcase classname="Login Validation" name="Validate the user login with valid credentials" time="0.08">
+        <system-out>
+            <![CDATA[Given user is on Login page.................................................passed
+When user enters correct username "wasim" and password "123"................passed
+And clicks on submit........................................................passed
+Then user is navigated to Homepage sucessfully..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Validation" name="Validate the user login with invalid credentials" time="0.004">
+        <system-out>
+            <![CDATA[Given user is on Login page.................................................passed
+When user enters the correct username "Akram" and password "456"............passed
+And clicks on submit........................................................passed
+Then user is navigated to Homepage sucessfully..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Validation" name="Fill the signup form" time="0.006">
+        <system-out>
+            <![CDATA[Given user is on Login page.................................................passed
+When user enters the following details......................................passed
+And clicks on submit........................................................passed
+Then user is navigated to Homepage sucessfully..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Validation" name="Validate the user login credentials with different set of data" time="0.005">
+        <system-out>
+            <![CDATA[Given user is on Login page.................................................passed
+When user enters correct username user1 and password Pwd1...................passed
+And clicks on submit........................................................passed
+Then user is navigated to Homepage sucessfully..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Validation" name="Validate the user login credentials with different set of data 2" time="0.018">
+        <system-out>
+            <![CDATA[Given user is on Login page.................................................passed
+When user enters correct username user2 and password Pwd2...................passed
+And clicks on submit........................................................passed
+Then user is navigated to Homepage sucessfully..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Validation" name="Validate the user login credentials with different set of data 3" time="0.003">
+        <system-out>
+            <![CDATA[Given user is on Login page.................................................passed
+When user enters correct username user3 and password Pwd3...................passed
+And clicks on submit........................................................passed
+Then user is navigated to Homepage sucessfully..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Validation" name="Validate the user login credentials with different set of data 4" time="0.003">
+        <system-out>
+            <![CDATA[Given user is on Login page.................................................passed
+When user enters correct username user4 and password Pwd4...................passed
+And clicks on submit........................................................passed
+Then user is navigated to Homepage sucessfully..............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
